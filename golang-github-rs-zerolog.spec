@@ -19,10 +19,10 @@ URL:		https://github.com/rs/zerolog
 License:	MIT
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
-BuildRequires:	ggolang(github.com/coreos/go-systemd/v22/journal)
-BuildRequires:	ggolang(github.com/mattn/go-colorable)
-BuildRequires:	ggolang(github.com/pkg/errors)
-BuildRequires:	ggolang(github.com/rs/xid)
+BuildRequires:	golang(github.com/coreos/go-systemd/v22/journal)
+BuildRequires:	golang(github.com/mattn/go-colorable)
+BuildRequires:	golang(github.com/pkg/errors)
+BuildRequires:	golang(github.com/rs/xid)
 BuildRequires:	golang(golang.org/x/tools/go/loader)
 
 %description
