@@ -81,6 +81,7 @@ done
 
 %check
 %if %{with check}
-%gochecks
+# journald test requires journald running
+%gochecks -d journald
 %endif
 
