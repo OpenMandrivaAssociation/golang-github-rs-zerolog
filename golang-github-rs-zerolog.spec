@@ -6,7 +6,7 @@
 # https://github.com/rs/zerolog
 %global goipath		github.com/rs/zerolog
 %global forgeurl	https://github.com/rs/zerolog
-Version:		1.32.0
+Version:		1.33.0
 
 %gometa
 
